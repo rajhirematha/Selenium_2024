@@ -51,30 +51,6 @@ public class AmazonIn {
         d.switchTo().window(parentWindow);
         d.findElement(By.xpath("//*[@id=\"ta1\"]")).sendKeys("Hi...!");
 
-
-//        String parentWindowHandle = d.getWindowHandle();
-//        Set<String> windowHandles = d.getWindowHandles();
-//        for (String handle : windowHandles) {
-//            if (!handle.equals(parentWindowHandle)) {
-//                d.switchTo().window(handle);
-//                break;
-//            }
-//            Thread.sleep(2000);
-//            d.findElement(By.xpath("//*[@id=\"a-popover-1\"]/div/header/button/i")).click();
-//        }
-
-
-
-//        d.quit();
-
-//        FirefoxOptions co = new FirefoxOptions();
-//        co.addArguments("--incognito");
-//        WebDriver driver = new FirefoxDriver(co);
-//        driver.manage().window().maximize();
-//        driver.get("https://www.amazon.in/");
-//        driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys(title);
-//        driver.close();
-
 //        work on switching between windows
 
 
