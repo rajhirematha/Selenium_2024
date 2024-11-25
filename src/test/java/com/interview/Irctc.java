@@ -93,7 +93,7 @@ public class Irctc {
             System.out.println("IRCTC application Opened successfully");
 
             Thread.sleep(2000);
-//        driver.close();
+       driver.close();
         }
 
     }
