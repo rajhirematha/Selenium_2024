@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.lang.model.util.ElementScanner8;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -21,7 +20,7 @@ public class Irctc {
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         WebDriverWait wait = null;
         try {
